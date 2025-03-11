@@ -37,9 +37,9 @@
 #define CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL "https://192.168.1.130:5000/firmware.bin" // home ip
 #define CONFIG_CHECK_FIRMWARE_UPGRADE_URL "https://192.168.1.130:5000/version" 
 
-#define GPIO_OUTPUT_IO 5 // it seems the button is connected to GPIO5
+#define GPIO_OUTPUT_IO 4 // it seems the button is connected to GPIO5
 #define GPIO_OUTPUT_PIN_SEL (1ULL<<GPIO_OUTPUT_IO)
-#define GPIO_INPUT_IO 2
+#define GPIO_INPUT_IO 5
 #define GPIO_INPUT_PIN_SEL (1ULL<<GPIO_INPUT_IO)
 
 /* FreeRTOS event group to signal when we are connected*/
